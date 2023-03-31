@@ -1,0 +1,31 @@
+/* Footer CSS */
+html, body
+{
+  height: 100%;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+}
+
+main
+{
+  flex-grow: 1;
+}
+
+footer
+{
+  flex-shrink: 0;
+}
+
+/* End Footer CSS */
+
+.truncate-custom {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
