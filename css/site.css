@@ -37,9 +37,9 @@ footer {
 
 .scrollable-div::-webkit-scrollbar {
   width: 6px;
-  background-color: #f5f5f5;
+  background-color: transparent;
 }
 
 .scrollable-div::-webkit-scrollbar-thumb {
-  background: black;
+  background: white;
 }
