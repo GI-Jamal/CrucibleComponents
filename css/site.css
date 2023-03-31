@@ -1,22 +1,19 @@
 /* Footer CSS */
-html, body
-{
+html,
+body {
   height: 100%;
 }
 
-body
-{
+body {
   display: flex;
   flex-direction: column;
 }
 
-main
-{
+main {
   flex-grow: 1;
 }
 
-footer
-{
+footer {
   flex-shrink: 0;
 }
 
@@ -28,4 +25,17 @@ footer
   text-overflow: ellipsis;
 }
 
+.scrollable-div {
+  overflow-y: auto;
+  max-height: 100vh;
+  position: sticky;
+}
 
+.scrollable-div::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background: black;
+}
