@@ -26,9 +26,13 @@ footer {
 }
 
 .scrollable-div {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: sticky;
   overflow-y: auto;
   max-height: 100vh;
-  position: sticky;
 }
 
 .scrollable-div::-webkit-scrollbar {
